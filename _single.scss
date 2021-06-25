@@ -1,0 +1,55 @@
+.single {
+  .flex {
+    display: block;
+  }
+
+  .flex {
+    width: initial;
+    display: flex;
+    .post__item {
+      margin: 128px auto;
+      min-width: 568px;
+    }
+  }
+
+  .post__wrap {
+    width: 60%;
+  }
+
+  .post__item {
+    max-width: initial;
+  }
+  .post__item-ttl {
+    font-size: 2rem;
+  }
+
+  .post__item-img {
+    width: 100%;
+  }
+
+  .post__item-ttl {
+    font-size: 3rem;
+  }
+}
+
+.post__item-content {
+  font-size: 1.6rem;
+  margin: 40px 0;
+  p {
+    margin-bottom: 20px;
+    line-height: 24px;
+  }
+}
+
+.post__link-item {
+  display: flex;
+  margin: 40px auto;
+}
+
+.previous {
+  flex: 1;
+}
+
+.post__top-link {
+  flex: 1;
+}
