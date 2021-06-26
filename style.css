@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: wp-practice
-Author: つむぎ
-Version: 1.0
-Description: ワードプレスのスタートアップテンプレート
+ここに宣言文を記入
 */
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
 html {
@@ -21,7 +18,9 @@ body {
   letter-spacing: 0.05em;
   background-color: #fff;
   color: #747679;
-  font-family: sans-serif, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: sans-serif, Quicksand, 游ゴシック体, "Yu Gothic", YuGothic,
+    "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo,
+    Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 a {
@@ -203,7 +202,7 @@ img {
 .post__item-img img {
   height: 200px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer {
@@ -238,4 +237,4 @@ img {
 .single__item-desc {
   font-size: 1.8rem;
   margin-top: 40px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
