@@ -1,6 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 /*
-ここに宣言文を記入
+Theme Name: yunbaru
+Author:higa
+Version: 1.0
+Description: 勉強会
 */
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
 html {
@@ -198,7 +201,11 @@ img {
 .post__item-img {
   width: 40%;
   margin-right: 5%;
+  /* max-width: 200px;
+  height: 100px; */
 }
+
+/* まるっと消す */
 .post__item-img img {
   height: 200px;
   -o-object-fit: cover;
