@@ -66,7 +66,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
+  /* width: 50%; */
 }
 .globalmenu__list .menu-item {
   width: 100%;
@@ -171,7 +171,7 @@ img {
   margin: 0 auto 40px;
   max-width: 800px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 16px;
 }
 
@@ -199,18 +199,18 @@ img {
 }
 
 .post__item-img {
-  width: 40%;
+  /* width: 40%; */
   margin-right: 5%;
-  /* max-width: 200px;
-  height: 100px; */
+  max-width: 200px;
+  height: 100px;
 }
 
 /* まるっと消す */
-.post__item-img img {
+/* .post__item-img img {
   height: 200px;
   -o-object-fit: cover;
   object-fit: cover;
-}
+} */
 
 .footer {
   margin-top: 88px;
