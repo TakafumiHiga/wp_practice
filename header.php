@@ -50,9 +50,6 @@
       <h1 class="key__visual-header">Archive</h1>
       <img src="<?php echo get_template_directory_uri(); ?>/img/img3-cat.jpg" alt="子猫が木に登っている画像" />
 
-      <?php else : ?>
-      <h1 class="key__visual-header">詳細ページ</h1>
-      <img src="<?php echo get_template_directory_uri(); ?>/img/img5-alley.jpg" alt="洋風の路地" />
     </div>
     <?php endif; ?>
     <!-- ここまでheader.phpへ -->
