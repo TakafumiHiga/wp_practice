@@ -5,12 +5,13 @@
     <h2 class="section__header news__header">商品一覧</h2>
     <div class="post__item-wrap">
       <ul class="post__item-list">
+
+
         <!-- サブループをここに記入 -->
         <?php
         $args = array(
         'post_type' => 'item',//投稿タイプを指定
-        'posts_per_page' => 5,
-        'paged => paged',
+        'posts_per_page' => 5,//記事の数を指定
         ); ?>
 
         <?php $the_query = new WP_Query($args); ?>
@@ -35,6 +36,8 @@
           </a>
         </li>
       </ul>
+
+
     </div>
   </section>
 </main>
