@@ -17,14 +17,42 @@
     <div class="globalmenu">
       <a href="/" class="logo globalmenu__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png"
           alt="ロゴイメージ画像" /></a>
-      <ul class="globalmenu__list">
+
+      <!-- グローバルメニュー -->
+
+      <?php 
+            wp_nav_menu(array(
+            'container_class' => 'globalmenu__list-container', 
+            'menu_class' => 'globalmenu__list',//ulのclass
+            'menu_id'         => 'globalmenu__list', //ulのid
+            'theme_location' => 'global',
+            'container' => 'nav',
+            'depth' => 3,
+            
+           
+            ));
+            ?>
+
+
+      <!-- <ul class="globalmenu__list">
         <li class="menu-item"><a href="/">ホーム</a></li>
         <li class="menu-item"><a href="/">News</a></li>
-      </ul>
+      </ul> -->
     </div>
     <div class="key__visual">
+      <!-- 条件分岐 -->
+      <?php if (is_home() || is_front_page() ): ?>
       <h1 class="key__visual-header">Practice-Blog</h1>
       <img src="<?php echo get_template_directory_uri(); ?>/img/img4-hill.jpg" alt="丘と太陽が登る画像" />
+      <?php elseif ( is_archive()) : ?>
+      <h1 class="key__visual-header">Practice-Blog</h1>
+      <img src="<?php echo get_template_directory_uri(); ?>/img/img3-cat.jpg" alt="猫が木に登っている画像" />
+    </div>
+    <?php else: ?>
+    <h1 class="key__visual-header">Practice-Blog</h1>
+    <img src="<?php echo get_template_directory_uri(); ?>/img/img5-alley.jpg" alt="洋風の路地" />
     </div>
 
+    <?php endif; ?>
+    </div>
     <!-- ここまでheader.phpへ -->
