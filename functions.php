@@ -33,8 +33,8 @@ register_nav_menus ( array(
  'global' => 'グローバル',
 ));
 
-//カスタム投稿を追加
 
+//カスタム投稿を追加
 
 function cpt_add_item() { //add_actionの２つのパラメーターを定義
 	$labels = [
@@ -63,7 +63,7 @@ function cpt_add_item() { //add_actionの２つのパラメーターを定義
 	];
 	register_post_type( "item", $args );//カスタム投稿タイプを追加する関数
 }
-add_action( 'init', 'cpt_add_item' );//init→特定の処理のときにこの処理を挟む。cpt_re
+add_action( 'init', 'cpt_add_item' );
 
 //itemカスタム投稿にカテゴリーを追加
 
